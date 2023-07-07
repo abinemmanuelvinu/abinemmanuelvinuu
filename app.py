@@ -4,7 +4,7 @@ import streamlit as st
 from typing_extensions import Literal
 
 
-st.set_page_config(page_title="my webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="abinemmanuelvinu", page_icon=":weight_lifter:", layout="wide")
 
 def load_lottieurl(url):
      r = requests.get(url)
@@ -19,8 +19,6 @@ from typing import Union, Optional
 
 def example_function(param: Union[str, int], flag: Optional[bool]) -> None:
     pass
-
-
 
 
 
@@ -161,8 +159,10 @@ with st.container():
           st.subheader("Preworkouts")
           st.write("I used to fuel my workouts with a nutrient-rich shake made with milk, oats, peanut butter, and banana.")
           st.subheader("conclusion")
-          st.write(""" "**NEVER SKIP LEG DAYS**" """)   
-          st.write("I couldn't have achieved my fitness goals without the help of my incredible gym partner, **Vasudev Sreekanth**.")
-          st.markdown("[Follow me](https://www.instagram.com/abinemmanuelvinu/)")
+          st.write(""" "**NEVER SKIP LEG DAYS**"                                                 
+                   "**CONSISTANCY IS THE KEY**" """)   
+          st.write("I couldn't have achieved my fitness goals without the help of my incredible gym partner,            **Vasudev Sreekanth**.")
+          st.markdown("[Follow Me On Instagram](https://www.instagram.com/abinemmanuelvinu/)")
+          st.markdown("[Follow Me On Threads](https://www.threads.net/@abinemmanuelvinu)")
      #with e:
           #st_lottie(lottie_coding2, height=400, key="coding2")
