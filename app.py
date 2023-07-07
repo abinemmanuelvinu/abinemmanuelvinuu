@@ -12,6 +12,19 @@ def load_lottieurl(url):
           return st.title("myre")
      return r.json()
 
+from typing import Union, Optional
+
+# Replace:
+# from typing import Union, Optional, Literal
+
+def example_function(param: Union[str, int], flag: Optional[bool]) -> None:
+    pass
+
+
+
+
+
+
 
 lottie_coding2=load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ot9fofi5.json")
 lottie_coding=load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_qmrxbp0w.json")
