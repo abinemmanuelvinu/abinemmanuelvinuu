@@ -15,6 +15,7 @@ def load_lottieurl(url):
 
 lottie_coding2=load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ot9fofi5.json")
 lottie_coding=load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_qmrxbp0w.json")
+color=Literal['red','green','blue']
 
 #----HEADER SECTION----
 with st.container():
