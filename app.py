@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 from typing_extensions import Literal
 
 
@@ -26,8 +26,8 @@ def example_function(param: Union[str, int], flag: Optional[bool]) -> None:
 
 
 
-lottie_coding2=load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ot9fofi5.json")
-lottie_coding=load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_qmrxbp0w.json")
+#lottie_coding2=load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_ot9fofi5.json")
+#lottie_coding=load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_qmrxbp0w.json")
 color=Literal['red','green','blue']
 
 #----HEADER SECTION----
@@ -39,8 +39,8 @@ with st.container():
          st.write("Hi, I'm Abin, a student from India who has been consistently working out for a year to achieve my fitness goals. I'm inspired by fitness icons like Tom Platz, Jo Lindner, and David Laid, and I'm here to share some of my workout routines with you.")
          st.write("I've learned a lot about fitness over the past year, and I'm excited to share my knowledge with you. I'll be covering everything from my favorite exercises to my meal plan. I hope you find my tips helpful, and I'm always happy to answer any questions you have.")
          st.write("So, whether you're a beginner or a seasoned pro, I invite you to join me on my fitness journey. Together, we can achieve our goals and become the best versions of ourselves.")
-    with b:
-         st_lottie(lottie_coding, height=400, key="coding")
+    #with b:
+         #st_lottie(lottie_coding, height=400, key="coding")
 
 with st.container():
      st.write("---")
@@ -164,5 +164,5 @@ with st.container():
           st.write(""" "**NEVER SKIP LEG DAYS**" """)   
           st.write("I couldn't have achieved my fitness goals without the help of my incredible gym partner, **Vasudev Sreekanth**.")
           st.markdown("[Follow me](https://www.instagram.com/abinemmanuelvinu/)")
-     with e:
-          st_lottie(lottie_coding2, height=400, key="coding2")
+     #with e:
+          #st_lottie(lottie_coding2, height=400, key="coding2")
