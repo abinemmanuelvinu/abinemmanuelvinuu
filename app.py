@@ -1,6 +1,8 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
+from typing_extensions import Literal
+
 
 st.set_page_config(page_title="my webpage", page_icon=":tada:", layout="wide")
 
